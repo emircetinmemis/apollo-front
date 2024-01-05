@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     fetch(
-      "https://emircetinmemis--web-hw3-api-app.modal.run/coffee"
+      "https://emircetinmemis--webhw45-app.modal.run/coffee"
     )
       .then((response) => response.json())
       .then((data) => setCoffees(data))

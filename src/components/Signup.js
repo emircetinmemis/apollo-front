@@ -18,7 +18,7 @@ function Signup() {
 
     try {
       const response = await fetch(
-        "https://emircetinmemis--web-hw3-api-app.modal.run/sign_up",
+        "https://emircetinmemis--webhw45-app.modal.run/sign_up",
         {
           method: "POST",
           headers: {

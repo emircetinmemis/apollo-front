@@ -9,7 +9,7 @@ export default function UserOrders() {
   useEffect(() => {
     // Fetch recent orders
     fetch(
-      "https://emircetinmemis--web-hw3-api-app.modal.run/order/recent"
+      "https://emircetinmemis--webhw45-app.modal.run/order/recent"
     )
       .then((response) => response.json())
       .then((data) => setOrders(data))

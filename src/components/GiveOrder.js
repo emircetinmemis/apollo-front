@@ -13,7 +13,7 @@ export default function GiveOrder() {
 
   useEffect(() => {
     fetch(
-      "https://emircetinmemis--web-hw3-api-app-dev.modal.run/coffee"
+      "https://emircetinmemis--webhw45-app.modal.run/coffee"
     )
       .then((response) => response.json())
       .then((data) => {
@@ -50,7 +50,7 @@ export default function GiveOrder() {
 
     try {
       const response = await fetch(
-        "https://emircetinmemis--web-hw3-api-app.modal.run/order",
+        "https://emircetinmemis--webhw45-app.modal.run/order",
         {
           method: "POST",
           headers: {

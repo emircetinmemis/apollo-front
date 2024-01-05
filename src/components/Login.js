@@ -18,7 +18,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        "https://emircetinmemis--web-hw3-api-app.modal.run/user/login",
+        "https://emircetinmemis--webhw45-app.modal.run/user/login",
         {
           method: "POST",
           headers: {

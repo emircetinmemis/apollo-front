@@ -24,7 +24,7 @@ export default function AddNewProduct() {
 
     try {
       const response = await fetch(
-        "https://emircetinmemis--web-hw3-api-app.modal.run/admin/coffee",
+        "https://emircetinmemis--webhw45-app.modal.run/admin/coffee",
         {
           method: "POST",
           body: JSON.stringify(productData),
